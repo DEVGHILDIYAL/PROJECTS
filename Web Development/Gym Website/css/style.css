@@ -1,0 +1,108 @@
+body {
+    font-family: 'Anton', sans-serif;
+    color: white;
+    margin: 0%;
+    padding: 0%;
+    background-image: url(../img/bg.jpg);
+}
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 22px;
+    top: 10px;
+    /* border: 2px solid orange; */
+}
+
+.left img {
+    width: 77px;
+    filter: invert(100%);
+
+}
+
+.left div {
+    line-height: 0px;
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    width: 50%;
+    margin: 10px 150px;
+    /* border: 2px solid blue; */
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 22px;
+    top: 10px;
+    /* border: 2px solid green; */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 20px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+}
+
+.btn {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    background-color: black;
+    color: white;
+    margin: 0 9px;
+    padding: 10px 11px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+}
+
+.container {
+    border: 2px solid white;
+    margin: 80px 80px;
+    padding: 5px;
+    width: 37%;
+    border-radius: 28px;
+}
+
+.form-group input {font-family: 'Anton', sans-serif;
+    text-align: center;
+    display: block;
+    width: 450px;
+    padding: 1px;
+    border: 2px solid black;
+    font-size: 20px;
+    margin: 11px auto;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
